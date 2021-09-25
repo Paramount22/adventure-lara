@@ -1,0 +1,27 @@
+
+/* general */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before, .container:before,
+.group:after, .container:after {
+    content: " ";
+    display: table;
+}
+
+i {
+    cursor: pointer;
+}
+
+.group:after, .container:after {
+    clear: both;
+}
+
+
+
